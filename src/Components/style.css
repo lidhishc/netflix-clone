@@ -1,0 +1,160 @@
+.row_poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin: 10px 20px 10px 10px;
+    transition: transform 450ms;
+}
+
+.row_poster:hover{
+    transform:scale(1.07);
+    opacity: 1;
+}
+.row_posters{
+ 
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 15px;
+}
+ 
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.row{
+text-align: start;
+margin: 20px;
+}
+
+.row_poster_Large{
+    min-height: 250px;
+    
+   
+}
+.row_poster_Large:hover{
+    transform: scale(1.10);
+}
+
+
+
+.banner{
+    height: 490px;
+    color: white;
+    object-fit: contain;
+    padding-bottom: 0;
+   
+}
+.banner_contents{
+    margin-left: 30px;
+    padding-top: 160px;
+    height: 190px;
+    
+}
+
+.banner_title{
+     font-size: 3rem;
+     font-weight: 800;
+     padding-bottom: 0.3rem;
+}
+
+.banner_description{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    max-width: 330px;
+    height: 90px;
+}
+
+.button{
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+font-weight: 700;
+border-radius: 0.2vw;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 0.5rem;
+margin-right: 1rem;
+padding-bottom: 0.5rem;
+background-color: rgba(51, 51, 51, 0.5);
+
+
+}
+.button:hover{
+    background-color: beige;
+    color: black;
+    transition: all 0.2s;
+}
+
+.banner__bottom{
+    margin-bottom: 0;
+    height: 8.9rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );
+}
+
+.nav{
+   
+   display: flex;
+    width: 100%;
+    position: fixed;
+    display: flex;
+   height: 50px;
+    justify-content: space-between;
+   transition: all 0.5s;
+   z-index: 1;
+}
+.logo{
+    padding-left: 20px;
+    height: 3rem;
+    width: 5rem;
+
+}
+
+.avatar{
+    height: 50px;
+    width: 50px;
+    margin-right: 2rem;
+    background-position: center;
+    background-size: contain;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Netflix_2015_N_logo.svg/132px-Netflix_2015_N_logo.svg.png');
+}
+
+.nav_hover{
+    background-color: #111;
+
+}
+
+.footer{
+   display: flex;
+    height: 5rem;
+    width: 100%;
+    background:linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );
+ justify-content: space-between;  
+}
+
+.footer_logo{
+   
+    height: 6rem;
+    width: 8rem;
+    margin-left: 3rem;
+   
+}
+.lidhish{
+    padding-top: 2rem;
+    font-size: small;
+    font-weight: 500;
+    margin-right: 1rem;
+   
+}

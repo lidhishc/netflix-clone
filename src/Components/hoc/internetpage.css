@@ -1,0 +1,27 @@
+.no-internet{
+    max-width: 500px;
+    max-height: 500px;
+   margin-left: 50vw;
+}
+
+.container1{
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  background: black;
+  height: 100VH;
+}
+.text{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text1{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
